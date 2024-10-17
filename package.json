@@ -3,7 +3,7 @@
   "displayName": "QueueStack",
   "description": "A simple and accessible to-do list extension",
   "publisher": "arrivaldo",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.94.0"
   },

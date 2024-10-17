@@ -222,8 +222,17 @@ function getWebviewContent(toDoItems: string[]): string {
                     if (input.value) {
                         vscode.postMessage({ command: 'addTask', text: input.value });
                         input.value = ''; // Clear input after adding
+
                     }
+                    input.focus(); // Maintain focus on the input field
+
                 }
+
+                 document.getElementById('taskInput').addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            addTask();
+        }
+    });
 
                 function deleteTask(index) {
                     vscode.postMessage({ command: 'removeTask', index });
