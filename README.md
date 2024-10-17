@@ -3,6 +3,7 @@
 A simple to-do application for Visual Studio Code that helps you manage your tasks efficiently.
 
 
+![Todo Extension Screenshot](./preview.png)
 
 
 ## Features
@@ -15,7 +16,6 @@ A simple to-do application for Visual Studio Code that helps you manage your tas
 
 
 
-![Todo Extension Screenshot](./preview.png)
 
 
 ## Installation
